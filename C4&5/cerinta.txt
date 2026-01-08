@@ -1,0 +1,39 @@
+Ești responsabil să creezi un sistem simplu de gestionare a stocurilor pentru un magazin mic. Magazinul vinde diverse produse, iar tu trebuie să gestionezi următoarele:
+1. Produse și prețuri:
+    Proprietarul magazinului îți oferă o listă de produse și prețurile lor. Stochează aceste informații într-un dicționar, unde cheia este numele produsului (șir de caractere), iar valoarea este prețul (număr zecimal).
+2. Vânzări și actualizarea stocului:
+    Proprietarul îți oferă și o listă de tupluri, unde fiecare tuplu conține numele produsului (șir de caractere) și cantitatea vândută (număr întreg) în timpul zilei.
+    Folosește aceste date pentru a calcula venitul total din ziua respectivă și pentru a actualiza nivelul stocului.
+3. Realimentare stocuri:
+    După procesarea vânzărilor, creează un set cu produsele care trebuie realimentate (produse cu mai puțin de 5 bucăți rămase în stoc).
+    Proprietarul îți oferă nivelurile inițiale de stoc sub forma unui alt dicționar.
+4. Generarea unui raport:
+    După procesarea informațiilor, afișează un raport sumar care să conțină:
+      - Venitul total din ziua respectivă.
+      - Stocurile rămase pentru fiecare produs.
+      - Produsele care trebuie realimentate.
+
+→ Exemplu de intrare
+Prețuri produse:
+{"mere": 1.0, "banane": 0.5, "portocale": 0.8, "mango": 1.5}
+Stoc inițial:
+{"mere": 10, "banane": 20, "portocale": 15, "mango": 5}
+Vânzări din timpul zilei:
+[("mere", 4), ("banane", 6), ("portocale", 10), ("mango", 2)]
+
+→ Exemplu de ieșire
+Venit total: 14.0 RON
+Stocuri rămase:
+  - mere: 6
+  - banane: 14
+  - portocale: 5
+  - mango: 3
+Produse ce necesită realimentare:
+  - portocale
+  - mango
+
+→ Sugestii pentru soluție:
+    - Folosește un dicționar pentru a gestiona prețurile și stocurile inițiale ale produselor.
+    - Utilizează o listă de tupluri pentru a înregistra vânzările zilnice și procesează-le iterativ.
+    - Folosește un set pentru a identifica produsele cu stocuri scăzute (sub pragul de 5 bucăți).
+    - Combină toate aceste date pentru a genera raportul final.

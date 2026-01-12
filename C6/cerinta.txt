@@ -1,0 +1,27 @@
+Sarcina ta este să creezi un program Python care verifică complexitatea unei parole introduse de utilizator.
+O parolă este considerată puternică dacă îndeplinește următoarele criterii:
+- Lungime: Are cel puțin 8 caractere.
+- Litere Majuscule: Conține cel puțin o literă majusculă.
+- Litere Minuscule: Conține cel puțin o literă minusculă.
+- Cifre: Conține cel puțin o cifră.
+- Caractere Speciale: Conține cel puțin un caracter special (!@#$%^&*()-_+=<>?).
+- Fără Spații: Nu conține spații.
+
+Programul trebuie să:
+- Solicite utilizatorului să introducă o parolă.
+- Verifice dacă parola respectă toate criteriile.
+- Afișeze un mesaj care indică dacă parola este puternică sau slabă.
+- Dacă parola este slabă, să ofere un feedback despre care criterii nu sunt îndeplinite.
+
+Exemplu de Output:
+1.
+  Input:
+  Introduceți parola: Python123
+  Output:
+  Parola dvs. este slabă.
+  Lipsesc caractere speciale.
+2.
+  Input:
+  Introduceți parola: Puternica!123
+  Output:
+  Parola dvs. este puternică.

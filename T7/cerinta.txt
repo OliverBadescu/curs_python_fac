@@ -1,0 +1,34 @@
+Sistem de Evaluare a Filmelor
+
+Descriere:
+   Creează un Sistem de Evaluare a Filmelor care citește datele despre filme dintr-un fișier, permite utilizatorilor să adauge evaluări noi și scrie datele actualizate înapoi în fișier.
+
+Instrucțiuni:
+- Citirea fișierului cu filme: Exista un fișier numit "movies.txt" care conține o listă de filme și evaluările lor (de la 1 la 5).
+    Fiecare linie din fișier urmează acest format:
+        Titlu Film, Evaluare
+    Exemplu de conținut:
+        Inception, 3
+        Interstellar, 4
+        The Dark Knight, 4
+        Memento, 2
+        Squid Game, 5
+- Interacțiunea cu utilizatorul:
+    Programul trebuie să ceară utilizatorului să:
+        1. Vizualizeze toate filmele și evaluările acestora.
+        2. Adauge un nou film împreună cu o evaluare.
+        3. Actualizeze evaluarea unui film existent.
+        4. Șteargă un film din listă.
+        5. Salveze modificările și să iasă din program.
+- Cerințe privind gestionarea fișierelor:
+    Programul trebuie să citească fișierul movies.txt la începutul execuției.
+    Programul trebuie să scrie în fișierul movies.txt ori de câte ori utilizatorul face modificări.
+- Cerințe suplimentare:
+    Sortează filmele după evaluare înainte de a le afișa utilizatorului.
+    Asigură-te că evaluările sunt cuprinse între 1 și 5. Dacă utilizatorul introduce o evaluare invalidă, cere introducerea unei valori valide.
+- Rezultate învățate așteptate să fie utilizate:
+    Citirea fișierelor (open, readlines, strip, split).
+    Scrierea în fișiere (write).
+    Operații cu dicționare.
+    Sortare și validarea input-ului.
+    Interacțiune de bază cu utilizatorul în Python.

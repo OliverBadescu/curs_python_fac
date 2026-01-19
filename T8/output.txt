@@ -1,0 +1,9 @@
+Rezultate:
+Numere citite: [10, 25, 8, 42, 17, 36, 5, 100, 23, 14]
+Media: 28.00
+Minim: 5
+Maxim: 100
+Numere pare: 6
+Deviatie standard: 27.98
+Radacina patrata a mediei: 5.29
+Dimensiune fisier input: 29 bytes

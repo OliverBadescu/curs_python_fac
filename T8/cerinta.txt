@@ -1,0 +1,17 @@
+Realizați o aplicație Python care citește date dintr-un fișier text, le procesează folosind și/sau , apoi scrie rezultatele într-un alt fișier.
+Cerințe:
+Creați un modul propriu file_utils.py care să conțină:
+o funcție care citește numere dintr-un fișier;
+o funcție care scrie rezultate într-un fișier.
+Creați un modul propriu analysis.py care să conțină:
+o funcție pentru media numerelor;
+o funcție pentru valoarea minimă și maximă;
+o funcție care numără câte valori sunt pare.
+În main.py:
+importați modulele proprii;
+folosiți (ex: os, math, statistics);
+citiți numerele din input.txt;
+procesați datele;
+scrieți rezultatele în output.txt.
+Format fișier:
+input.txt: numere întregi, câte unul pe linie

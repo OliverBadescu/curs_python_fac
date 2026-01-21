@@ -1,0 +1,13 @@
+Gestionarea angajaților (Inheritance, Creating Subclasses, Overriding Methods)
+Descriere: Creează o clasă de bază Employee care să conțină:
+● Atribute: name, salary.
+● ;
+● Metodă: get_details(), care returnează detalii despre angajat.
+Creează o subclasă Manager care moștenește Employee și adaugă:
+● Atributul suplimentar department.
+● Suprascrie metoda get_details() pentru a include departamentul.
+Exemplu:
+emp = Employee("John", 3000)
+mgr = Manager("Alice", 5000, "IT")
+print(emp.get_details()) # "Employee: John, Salary: 3000"
+print(mgr.get_details()) # "Manager: Alice, Salary: 5000, Department: IT"

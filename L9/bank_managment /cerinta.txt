@@ -1,0 +1,11 @@
+1:Gestionarea conturilor bancare (Encapsulation, Instantiating, Adding Attributes
+and Methods)
+Descriere:
+Creează o clasă BankAccount care să reprezinte un cont bancar. Utilizează encapsulation
+pentru a proteja soldul contului. Clasa ar trebui să conțină:
+● Un atribut privat _balance.
+● Metode publice pentru:
+● Depunere (deposit(amount)): Adaugă bani în cont.
+● Retragere (withdraw(amount)): Retrage bani din cont, dacă există suficient
+sold.
+● Obținerea soldului (get_balance()).

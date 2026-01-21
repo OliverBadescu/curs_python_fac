@@ -1,0 +1,15 @@
+Forme geometrice (Polymorphism, Understanding Dunder Methods)
+Descriere:
+● Creează o clasă de bază Shape care să conțină metoda area() ce returnează aria formei
+geometrice.
+● Creează două clase care moștenesc Shape:
+○ 1. Circle – să calculeze aria unui cerc.
+○ 2. Rectangle – să calculeze aria unui dreptunghi.
+○ Adaugă metode dunder pentru afișare (__str__) în fiecare clasă pentru a oferi o
+reprezentare textuală.
+
+Exemplu:
+circle = Circle(5)
+rectangle = Rectangle(10, 4)
+print(circle) # "Circle with radius 5 has area 78.54"
+print(rectangle) # "Rectangle with width 10 and height 4 has area 40"

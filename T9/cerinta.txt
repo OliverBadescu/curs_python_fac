@@ -1,0 +1,24 @@
+Sistem de Bibliotecă (Compoziție și Polimorfism)
+
+Creează un Sistem de Bibliotecă care gestionează cărți și membri folosind compoziție și polimorfism.
+
+Cerințe:
+Creează o clasă
+Carte cu atributele:
+titlu, autor, ISBN și este_imprumutata (implicit False).
+Creează o clasă
+MembruBiblioteca cu atributele:
+nume și carti_imprumutate (o listă de obiecte Carte).
+Implementează
+metode în clasa MembruBiblioteca:
+imprumuta_carte(carte): Adaugă  cartea în lista carti_imprumutate dacă aceasta nu este deja împrumutată.
+returneaza_carte(carte): Scoate cartea din lista carti_imprumutate.
+Creează o clasă
+Biblioteca care conține o listă de obiecte Carte și metodele:
+adauga_carte(carte): Adaugă o carte în bibliotecă.
+sterge_carte(carte): Șterge o carte din bibliotecă.
+listeaza_carti_disponibile(): Listează toate cărțile care nu sunt împrumutate.
+Sarcină:
+Creează cel puțin 5 cărți și 3 membri ai bibliotecii.
+Scrie cod pentru a simula împrumutarea și returnarea cărților.
+Asigură-te că aceeași carte nu poate fi împrumutată de doi membri în același timp.

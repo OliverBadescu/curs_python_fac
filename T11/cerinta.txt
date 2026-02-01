@@ -1,0 +1,52 @@
+Rezolvati urmatoarele 3 exercitii, utilizand bibliotecile NumPy, Pandas si Matplotlib.
+
+Exercițiul 1: Analiza și Vizualizarea Datelor Meteo
+1.    Generarea Datelor:
+  o    Folosește NumPy pentru a simula datele meteo pentru un oraș pe parcursul unui an (365 de zile).
+  o    Generează date zilnice pentru:
+              Temperatura (valoare random între 5°C și 35°C)
+              Umiditate (valoare random între 30% și 90%)
+              Viteza vântului (valoare random între 0 km/h și 20 km/h)
+    o    Stochează aceste date într-un DataFrame Pandas cu coloanele: Data, Temperatura, Umiditate, Viteza Vântului.
+2.    Procesarea Datelor:
+    o    Adaugă o coloană nouă pentru a calcula temperatura resimțită folosind formula simplificată: Temperatura Resimțita˘=Temperatura−0.7×(Umiditate/100)\text{Temperatura Resimțită} = \text{Temperatura} - 0.7 \times (\text{Umiditate} / 100)Temperatura Resimțita˘=Temperatura−0.7×(Umiditate/100)
+    o    Găsește ziua cu cea mai mare și cea mai mică temperatură resimțită.
+3.    Vizualizare:
+    o    Realizează următoarele grafice folosind Matplotlib:
+              Un grafic de tip linie pentru Temperatura și Temperatura Resimțită pe parcursul anului.
+              Un grafic de tip bară pentru a afișa temperatura medie lunară (grupează datele pe lună).
+
+Exercițiul 2: Simularea și Analiza Pieței de Acțiuni
+1.    Generarea Datelor:
+    o    Folosește NumPy pentru a simula prețul zilnic al acțiunilor unei companii fictive pe o perioadă de 2 ani (730 de zile).
+    o    Presupune că acțiunea începe de la 100$, iar modificările procentuale zilnice urmează o distribuție normală cu o medie de 0% și o abatere standard de 2%.
+    o    Generează prețurile de închidere zilnice și calculează prețul cumulativ pentru fiecare zi.
+2.    Procesarea Datelor:
+    o    Stochează datele într-un DataFrame Pandas cu coloanele: Data, Schimbare Zilnică (%), Preț de Închidere.
+    o    Calculează media mobilă a prețului acțiunilor pe 30 și 100 de zile.
+    o    Identifică perioadele în care prețul acțiunilor a fost peste media mobilă de 100 de zile.
+3.    Vizualizare:
+    o    Realizează următoarele grafice:
+              Un grafic de tip linie pentru prețul de închidere zilnic.
+              Mediile mobile pe 30 și 100 de zile pe același grafic.
+              Evidențiază perioadele în care prețul acțiunilor este peste media mobilă de 100 de zile.
+
+Exercițiul 3: Analiza Datelor de Rating ale Filmelor
+1.    Generarea Datelor:
+    o    Folosește NumPy pentru a genera date sintetice pentru 10.000 de evaluări ale utilizatorilor pentru 100 de filme.
+    o    Fiecare utilizator evaluează între 1 și 5 filme alese aleatoriu.
+    o    Generează:
+              ID-urile filmelor (1 la 100)
+              ID-urile utilizatorilor (1 la 1000)
+              Evaluările (numere întregi random între 1 și 5)
+2.    Procesarea Datelor:
+    o    Stochează datele într-un DataFrame Pandas cu coloanele: ID Utilizator, ID Film, Rating.
+    o    Calculează următoarele:
+              Ratingul mediu pentru fiecare film.
+              Primele 5 filme cu cel mai mare rating mediu.
+              Filmele cu mai mult de 50 de evaluări și un rating mediu sub 3.5.
+3.    Vizualizare:
+    o    Realizează următoarele grafice:
+              Un histogramă pentru toate ratingurile filmelor.
+              Un grafic de tip bară pentru primele 5 filme cu cel mai mare rating mediu.
+              Un grafic de tip scatter care să arate numărul de evaluări vs. ratingul mediu pentru fiecare film.
